@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SpashScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="hdhdhd"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="italic">
+        </TextView>
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtPTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#43A047"
+        android:text="Pagar"
+        android:textSize="20sp"
+        android:textStyle="italic"></Button>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#000000"
+        android:text="Cancelar"
+        android:textSize="20sp"
+        android:textStyle="italic"></Button>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

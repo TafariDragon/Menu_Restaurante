@@ -49,8 +49,8 @@
 
         <EditText
             android:id="@+id/txtQuantidadeCafé"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:inputType="number"
             android:text="0"></EditText>
@@ -101,8 +101,8 @@
 
         <EditText
             android:id="@+id/txtQuantidadePao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:inputType="number"
             android:text="0"></EditText>
@@ -153,8 +153,8 @@
 
         <EditText
             android:id="@+id/txtQuantidadeSuco"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:inputType="number"
             android:text="0"></EditText>
@@ -204,8 +204,8 @@
 
         <EditText
             android:id="@+id/txtQuantidadeSorvete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:inputType="number"
             android:text="0"></EditText>
@@ -227,16 +227,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnRealizarPedidio"
-            android:layout_width="240dp"
-            android:layout_height="80dp"
+            android:id="@+id/btnRealizarPedido"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:backgroundTint="#0C2BE6"
             android:text="Realizar Pedido"
+            android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="italic"></Button>
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvido Tafari Vilanculos"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"></TextView>
+
+
     </LinearLayout>
+
+
+
+
 
 
 </LinearLayout>
